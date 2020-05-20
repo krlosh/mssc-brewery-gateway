@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Profile;
 
 @Profile("local-discovery")
 @Configuration
-public class LoadBalancedRouteConfig {
+public class LoadBalancedRoutesConfig {
 
     @Bean
     public RouteLocator loadBalancedRoutes(RouteLocatorBuilder builder) {
